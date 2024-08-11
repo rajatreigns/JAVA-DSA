@@ -1,0 +1,63 @@
+Problem : Taking Input- JAVA Problem of GEEKS FOR GEEKS
+Problem statement: Before implementing any algorithm, we should be thorough with taking inputs. Here, we will learn how to read inputs.
+You are given five inputs: a(integer), b(float ), c(long), d(byte), and s(string) respectively.
+
+You need to take the input and print a, b, c, d, and s in a new line. In the code, variable t represents the total number of inputs during execution. Note : Consider using sc.nextLine( ) after byte input to handle any issues with input reading.
+Read: Java I/O
+
+Example 1:
+Input:
+5
+2.5
+6546854
+120
+geek for geeks
+Output:
+5
+2.5
+6546854
+120
+geek for geeks
+ 
+Example 2:
+Input:
+6
+3.5
+7546854
+220
+suryansh is Legendary
+Output:
+6 
+3.5 
+7546854 
+220 
+suryansh is Legendary
+User Task:
+Your task is to complete the provided function IOFunction(). You need to take the input and print a, b, c, d, and s in a new line
+
+Constraints:
+All inputs will be within the limits of all datatypes.
+
+Solution: 
+
+public class Geeks {
+        static void IOFunction() {
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while(t-- > 0){
+        int a = sc.nextInt();
+        float b= sc.nextFloat();
+        long c=sc.nextLong();
+        byte d=sc.nextByte();
+        sc.nextLine();
+        String S =sc.nextLine();
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(S);
+
+
+        }
+    }
+}
