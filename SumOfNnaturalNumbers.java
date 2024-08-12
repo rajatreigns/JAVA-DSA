@@ -11,4 +11,9 @@ public class NaturalNumbers {
   }
 }
 
-//Solution for Sum of first N natural numbers by formula , we can also solve it loops
+//Solution for Sum of first N natural numbers by formula , we can also solve it with for loop by using the 
+int sum(int n){
+for (int i=1;i<=n;i++)
+  result=result+i;
+return result;
+}
