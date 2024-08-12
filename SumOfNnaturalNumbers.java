@@ -11,4 +11,4 @@ public class NaturalNumbers {
   }
 }
 
-//Solution for Sum of first N natural numbers
+//Solution for Sum of first N natural numbers by formula , we can also solve it loops
